@@ -1,0 +1,102 @@
+2024-03-05 00:53:28,021 Started executable: `/usr/bin/chromedriver` in a child process with pid: 47239
+2024-03-05 00:53:28,523 POST http://localhost:56469/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2024-03-05 00:53:28,524 Starting new HTTP connection (1): localhost:56469
+2024-03-05 00:53:29,145 http://localhost:56469 "POST /session HTTP/1.1" 200 847
+2024-03-05 00:53:29,145 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.94","chrome":{"chromedriverVersion":"122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})","userDataDir":"/tmp/.org.chromium.Chromium.s92HZg"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:42189"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"cc3933aaa5f409f89c1e2bfdcda6bd79"}} | headers=HTTPHeaderDict({'Content-Length': '847', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:53:29,145 Finished Request
+2024-03-05 00:53:29,146 ****************Test_001_Login*************
+2024-03-05 00:53:29,146 ****************Verifying home page title*************
+2024-03-05 00:53:29,146 POST http://localhost:56469/session/cc3933aaa5f409f89c1e2bfdcda6bd79/url {"url": "https://admin-demo.nopcommerce.com/"}
+2024-03-05 00:53:34,833 http://localhost:56469 "POST /session/cc3933aaa5f409f89c1e2bfdcda6bd79/url HTTP/1.1" 200 14
+2024-03-05 00:53:34,834 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:53:34,834 Finished Request
+2024-03-05 00:53:34,834 GET http://localhost:56469/session/cc3933aaa5f409f89c1e2bfdcda6bd79/title {}
+2024-03-05 00:53:35,918 http://localhost:56469 "GET /session/cc3933aaa5f409f89c1e2bfdcda6bd79/title HTTP/1.1" 200 29
+2024-03-05 00:53:35,918 Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:53:35,919 Finished Request
+2024-03-05 00:53:35,919 DELETE http://localhost:56469/session/cc3933aaa5f409f89c1e2bfdcda6bd79/window {}
+2024-03-05 00:53:36,332 http://localhost:56469 "DELETE /session/cc3933aaa5f409f89c1e2bfdcda6bd79/window HTTP/1.1" 200 12
+2024-03-05 00:53:36,332 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:53:36,332 Finished Request
+2024-03-05 00:53:36,333 ****************Home page title test has passed*************
+2024-03-05 00:54:22,333 Started executable: `/usr/bin/chromedriver` in a child process with pid: 47489
+2024-03-05 00:54:22,836 POST http://localhost:47977/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2024-03-05 00:54:22,836 Starting new HTTP connection (1): localhost:47977
+2024-03-05 00:54:23,474 http://localhost:47977 "POST /session HTTP/1.1" 200 847
+2024-03-05 00:54:23,474 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.94","chrome":{"chromedriverVersion":"122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})","userDataDir":"/tmp/.org.chromium.Chromium.0RlW5m"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:34373"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"d1719ca605aeeec02e7f5ea21c186524"}} | headers=HTTPHeaderDict({'Content-Length': '847', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:23,475 Finished Request
+2024-03-05 00:54:23,476 ****************Test_001_Login*************
+2024-03-05 00:54:23,476 ****************Verifying home page title*************
+2024-03-05 00:54:23,476 POST http://localhost:47977/session/d1719ca605aeeec02e7f5ea21c186524/url {"url": "https://admin-demo.nopcommerce.com/"}
+2024-03-05 00:54:27,900 http://localhost:47977 "POST /session/d1719ca605aeeec02e7f5ea21c186524/url HTTP/1.1" 200 14
+2024-03-05 00:54:27,900 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:27,900 Finished Request
+2024-03-05 00:54:27,900 GET http://localhost:47977/session/d1719ca605aeeec02e7f5ea21c186524/title {}
+2024-03-05 00:54:27,906 http://localhost:47977 "GET /session/d1719ca605aeeec02e7f5ea21c186524/title HTTP/1.1" 200 29
+2024-03-05 00:54:27,906 Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:27,906 Finished Request
+2024-03-05 00:54:27,907 DELETE http://localhost:47977/session/d1719ca605aeeec02e7f5ea21c186524/window {}
+2024-03-05 00:54:28,585 http://localhost:47977 "DELETE /session/d1719ca605aeeec02e7f5ea21c186524/window HTTP/1.1" 200 12
+2024-03-05 00:54:28,585 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:28,586 Finished Request
+2024-03-05 00:54:28,586 ****************Home page title test has passed*************
+2024-03-05 00:54:28,589 Started executable: `/usr/bin/chromedriver` in a child process with pid: 47727
+2024-03-05 00:54:29,090 POST http://localhost:46783/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2024-03-05 00:54:29,091 Starting new HTTP connection (1): localhost:46783
+2024-03-05 00:54:29,906 http://localhost:46783 "POST /session HTTP/1.1" 200 847
+2024-03-05 00:54:29,906 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"122.0.6261.94","chrome":{"chromedriverVersion":"122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})","userDataDir":"/tmp/.org.chromium.Chromium.NrHJkA"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:42963"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"718d0624bc41a8a11d052b20ffbdae20"}} | headers=HTTPHeaderDict({'Content-Length': '847', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:29,906 Finished Request
+2024-03-05 00:54:29,907 ****************Verifying login test*************
+2024-03-05 00:54:29,907 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/url {"url": "https://admin-demo.nopcommerce.com/"}
+2024-03-05 00:54:35,287 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/url HTTP/1.1" 200 14
+2024-03-05 00:54:35,288 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:35,288 Finished Request
+2024-03-05 00:54:35,288 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element {"using": "css selector", "value": "[id=\"Email\"]"}
+2024-03-05 00:54:35,303 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element HTTP/1.1" 200 125
+2024-03-05 00:54:35,303 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:35,303 Finished Request
+2024-03-05 00:54:35,303 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1/clear {"id": "f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1"}
+2024-03-05 00:54:36,123 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1/clear HTTP/1.1" 200 14
+2024-03-05 00:54:36,123 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,124 Finished Request
+2024-03-05 00:54:36,124 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element {"using": "css selector", "value": "[id=\"Email\"]"}
+2024-03-05 00:54:36,236 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element HTTP/1.1" 200 125
+2024-03-05 00:54:36,236 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,236 Finished Request
+2024-03-05 00:54:36,237 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1"}
+2024-03-05 00:54:36,366 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.1/value HTTP/1.1" 200 14
+2024-03-05 00:54:36,367 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,367 Finished Request
+2024-03-05 00:54:36,367 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element {"using": "css selector", "value": "[id=\"Password\"]"}
+2024-03-05 00:54:36,386 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element HTTP/1.1" 200 125
+2024-03-05 00:54:36,386 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,386 Finished Request
+2024-03-05 00:54:36,387 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3/clear {"id": "f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3"}
+2024-03-05 00:54:36,410 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3/clear HTTP/1.1" 200 14
+2024-03-05 00:54:36,410 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,410 Finished Request
+2024-03-05 00:54:36,410 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element {"using": "css selector", "value": "[id=\"Password\"]"}
+2024-03-05 00:54:36,416 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element HTTP/1.1" 200 125
+2024-03-05 00:54:36,416 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,416 Finished Request
+2024-03-05 00:54:36,416 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3"}
+2024-03-05 00:54:36,442 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.3/value HTTP/1.1" 200 14
+2024-03-05 00:54:36,442 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,442 Finished Request
+2024-03-05 00:54:36,443 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element {"using": "xpath", "value": "//button[@type=\"submit\"]"}
+2024-03-05 00:54:36,450 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element HTTP/1.1" 200 125
+2024-03-05 00:54:36,451 Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.6"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:36,451 Finished Request
+2024-03-05 00:54:36,451 POST http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.6/click {"id": "f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.6"}
+2024-03-05 00:54:37,556 http://localhost:46783 "POST /session/718d0624bc41a8a11d052b20ffbdae20/element/f.5FFE50C1EB51E0C81390C0E25C1884CF.d.2F45D63CC8F7CE7F752C019DC15954E9.e.6/click HTTP/1.1" 200 14
+2024-03-05 00:54:37,556 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:37,556 Finished Request
+2024-03-05 00:54:37,556 GET http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/title {}
+2024-03-05 00:54:40,957 http://localhost:46783 "GET /session/718d0624bc41a8a11d052b20ffbdae20/title HTTP/1.1" 200 50
+2024-03-05 00:54:40,957 Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:40,957 Finished Request
+2024-03-05 00:54:40,957 ****************Login test passed*************
+2024-03-05 00:54:40,957 DELETE http://localhost:46783/session/718d0624bc41a8a11d052b20ffbdae20/window {}
+2024-03-05 00:54:41,591 http://localhost:46783 "DELETE /session/718d0624bc41a8a11d052b20ffbdae20/window HTTP/1.1" 200 12
+2024-03-05 00:54:41,591 Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2024-03-05 00:54:41,591 Finished Request
